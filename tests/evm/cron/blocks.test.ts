@@ -9,7 +9,7 @@ import { contracts } from "@src/evm/contracts";
 import { Protocol } from "@src/evm/enums";
 import { sablier } from "@src/sablier";
 import type { Sablier } from "@src/types";
-import { Effect, Logger, pipe, Schema } from "effect";
+import { Effect, Logger, Schema } from "effect";
 import { ETHERSCAN_CHAINS, getEtherscanContractCreationUrl } from "../helpers/etherscan";
 
 const EtherscanResultSchema = Schema.Struct({
